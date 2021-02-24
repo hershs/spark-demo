@@ -7,8 +7,6 @@ import org.apache.spark.sql.streaming.{OutputMode, Trigger}
 import org.apache.spark.sql.types.StructType
 import org.apache.spark.sql.{Encoders, SparkSession}
 
-case class Tweet(id: String, favoriteCount: Long, retweetCount: Long, text: String, createdAt: Long,
-                 language: String, source: String, userName: String, decoded: Boolean, inReponseTo: Long)
 
 object Devices {
 

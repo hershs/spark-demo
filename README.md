@@ -2,8 +2,6 @@
 
 ### Why spark faster than any other distributed computation engine?
 
-Because of DataFrames
-
 Start shell on local machine
 ```shell
 spark-shell --master local[*] --conf spark.driver.memory=4G
